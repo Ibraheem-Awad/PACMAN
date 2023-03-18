@@ -1,7 +1,7 @@
 # PACMAN
-Object-Oriented Programming project.
-Pacman Game
-Written by: Ibrahim Awad.
+Object-Oriented Programming project.__
+Pacman Game__
+Written by: Ibrahim Awad.__
 
 # General description
 At this game your goal is to get Pacman to eat all the food.
