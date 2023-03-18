@@ -2,8 +2,8 @@
 Object-Oriented Programming project.
 Pacman Game
 Written by: Ibrahim Awad.
-**************General description**************
 
+# General description
 At this game your goal is to get Pacman to eat all the food.
 Pacman can turn into Super Pacman when it eats the proper food.
 Pacman loses a life when it collides with a ghost
@@ -18,7 +18,7 @@ There are multiple types of food that can be eaten:
 5) Hearts to increase the number of of the player's lives
 6) Clocks to add time
 
-**************Game in depth**************
+# Game in depth
 The program will read 3 levels from one file, 
 It will create an interface using SFML graphics and sound
 When the user runs the program we will see the menu which includes
@@ -45,7 +45,7 @@ also it doesn't need keys to open the gates, Super Pacman can just simply smash 
 way through the gates, and after a certain amount of time, Super Pacman turns back into
 Pacman and the game resumes.
 
-**************Technichalities and data structure**************
+# Technichalities and data structure
 There are 23 Classes:
 Controller, Buffers, Macros, Menu, Sound, Textures and Board, all of these classes don't
 inherite anything.
@@ -57,12 +57,12 @@ Pacman and SuperPacman are both classes that inherite from Player Class.
 
 
 
-**************Input File**************
+# Input File
     
 The input format of the file includes the number of rows and columns of the map
 and which object will be included in each cell
 
-**************Files**************
+# Files
 Board.h
 Signature of Board class and functions related to it
 Buffers.h
@@ -113,5 +113,5 @@ This file that has the buttons that the user can press at the beggining
 Pacman.cpp
 includes the functions of pacman
 
-**************Bugs**************
+# Bugs
 The entry spawn of the ghosts, it was difficult to get them to spawn
