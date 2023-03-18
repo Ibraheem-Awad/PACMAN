@@ -4,11 +4,11 @@ Pacman Game<br />
 Written by: Ibrahim Awad.<br />
 
 # General description
-At this game your goal is to get Pacman to eat all the food.
-Pacman can turn into Super Pacman when it eats the proper food.
-Pacman loses a life when it collides with a ghost
-Super Pacman can break through walls and can't be eaten by the ghosts.
-The player loses when they lose all of their lives.
+At this game your goal is to get Pacman to eat all the food.<br />
+Pacman can turn into Super Pacman when it eats the proper food.<br />
+Pacman loses a life when it collides with a ghost<br />
+Super Pacman can break through walls and can't be eaten by the ghosts.<br />
+The player loses when they lose all of their lives.<br />
 
 There are multiple types of food that can be eaten:
 1) Cherries to increase your score!
