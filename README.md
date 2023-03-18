@@ -60,55 +60,55 @@ The input format of the file includes the number of rows and columns of the map
 and which object will be included in each cell
 
 # Files
-Board.h
-Signature of Board class and functions related to it
-Buffers.h
-Signature of Buffers class and functions related to it
-Controller.h
-Signature of Controller class and functions related to it
-Food.h
-Signature of Food class and functions related to it
-FreezeGift.h
-Signature of FreezeGift class and functions related to it
-GameObject.h
-Signature of GameObject class and functions related to it
-Gate.h
-Signature of Gate class and functions related to it
-Gifts.h
-Signature of Gifts class and functions related to it
-Key.h
-Signature of Key class and functions related to it
-LifeGift.h
-Signature of LifeGift class and functions related to it
-Macros.h
-Signature of Macros class and functions related to it
-Menu.h
-Signature of Menu class and functions related to it
-MovableObject.h
-Signature of MovableObject class and functions related to it
-Pacman.h
-Signature of Pacman class and functions related to it
-Player.h
-Signature of Player class and functions related to it
-Sound.h
-Signature of Sound class and functions related to it
-SuperGift.h
-Signature of SuperGift class and functions related to it
-SuperPacman.h
-Signature of SuperPacman class and functions related to it
-Textures.h
-Signature of Textures class and functions related to it
-TimeGift.h
-Signature of TimeGift class and functions related to it
-UnmovableObject.h
-Signature of UnmovableObject class and functions related to it
-Wall.h
-Signature of Wall class and functions related to it
-The file that creates the class that controls the game and is in charge of all the other files
-Menu.cpp
-This file that has the buttons that the user can press at the beggining
-Pacman.cpp
-includes the functions of pacman
+Board.h<br />
+Signature of Board class and functions related to it<br />
+Buffers.h<br />
+Signature of Buffers class and functions related to it<br />
+Controller.h<br />
+Signature of Controller class and functions related to it<br />
+Food.h<br />
+Signature of Food class and functions related to it<br />
+FreezeGift.h<br />
+Signature of FreezeGift class and functions related to it<br />
+GameObject.h<br />
+Signature of GameObject class and functions related to it<br />
+Gate.h<br />
+Signature of Gate class and functions related to it<br />
+Gifts.h<br />
+Signature of Gifts class and functions related to it<br />
+Key.h<br />
+Signature of Key class and functions related to it<br />
+LifeGift.h<br />
+Signature of LifeGift class and functions related to it<br />
+Macros.h<br />
+Signature of Macros class and functions related to it<br />
+Menu.h<br />
+Signature of Menu class and functions related to it<br />
+MovableObject.h<br />
+Signature of MovableObject class and functions related to it<br />
+Pacman.h<br />
+Signature of Pacman class and functions related to it<br />
+Player.h<br />
+Signature of Player class and functions related to it<br />
+Sound.h<br />
+Signature of Sound class and functions related to it<br />
+SuperGift.h<br />
+Signature of SuperGift class and functions related to it<br />
+SuperPacman.h<br />
+Signature of SuperPacman class and functions related to it<br />
+Textures.h<br />
+Signature of Textures class and functions related to it<br />
+TimeGift.h<br />
+Signature of TimeGift class and functions related to it<br />
+UnmovableObject.h<br />
+Signature of UnmovableObject class and functions related to it<br />
+Wall.h<br />
+Signature of Wall class and functions related to it<br />
+The file that creates the class that controls the game and is in charge of all the other files<br />
+Menu.cpp<br />
+This file that has the buttons that the user can press at the beggining<br />
+Pacman.cpp<br />
+includes the functions of pacman<br />
 
 # Bugs
 The entry spawn of the ghosts, it was difficult to get them to spawn
