@@ -26,21 +26,21 @@ When the user runs the program we will see the menu which includes<br />
 The first one is for starting the game, the second is the Help button <br />
 which will display the game instructions and features.<br />
 the last one is to exit the game.<br />
-When the player starts the game they will have 3 lives, the player loses life <br />
-when it collides with a ghost, each level has multiple ghosts. When the player <br />
+When the player starts the game they will have 3 lives, the player loses life
+when it collides with a ghost, each level has multiple ghosts.<br /> When the player
 loses all three lives they lose the game.<br />
 There will also be a timer, when the time finishes the game restarts.<br />
 In order for the player to beat each level they have to eat all the food in the 
 level. <br />
-each level has a slightly increased difficulty<br />
+each level has a slightly increased difficulty
 the game also has different features that are triggered upon collecting gifts:<br />
 Freezing gift that freezes all the ghosts in the game for a certain amount of time.<br />
 Lives gift that increases the number of lives the player has.<br />
 Time addition gift that will increase the player's time.<br />
 Super gift that will turn Pacman to Super Pacman.<br />
-There are also gates and keys, in order for pacman to open a gate and loot the food<br />
+There are also gates and keys, in order for pacman to open a gate and loot the food
 inside of the room, the player has to collect keys to open all of the gates.<br />
-Unlike Pacman, Super Pacman doesn't lose lives when colliding with the ghosts,<br />
+Unlike Pacman, Super Pacman doesn't lose lives when colliding with the ghosts,
 also it doesn't need keys to open the gates, Super Pacman can just simply smash it's
 way through the gates, and after a certain amount of time, Super Pacman turns back into
 Pacman and the game resumes.
@@ -48,17 +48,14 @@ Pacman and the game resumes.
 # Technichalities and data structure
 There are 23 Classes:
 Controller, Buffers, Macros, Menu, Sound, Textures and Board, all of these classes don't
-inherite anything.
+inherite anything.<br />
 GameObject: which is a class that has MovableObject and UnmovableObject inheriting from it
 from UnmovableObject we inherite to the classes of Food, Gate, Key, Wall and Gift 
-LifeGift, FreezeGift, SuperGift and TimeGift all inherite from the class Gift.
+LifeGift, FreezeGift, SuperGift and TimeGift all inherite from the class Gift.<br />
 Player class inherites from MovableObject
 Pacman and SuperPacman are both classes that inherite from Player Class.
 
-
-
 # Input File
-    
 The input format of the file includes the number of rows and columns of the map
 and which object will be included in each cell
 
